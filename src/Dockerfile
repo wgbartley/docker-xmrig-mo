@@ -9,7 +9,7 @@ RUN apk --no-cache add \
     cmake
 
 RUN apk --no-cache add \
-    --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+    --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
     hwloc-dev
 
 ARG XMRIG_VERSION=v5.0.0-mo1
