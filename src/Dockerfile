@@ -33,7 +33,7 @@ RUN apk --no-cache add \
     libuv-dev 
 
 RUN apk --no-cache add \
-    --repository http://dl-cdn.alpinelinux.org/alpine/edge/testing \
+    --repository http://dl-cdn.alpinelinux.org/alpine/edge/community \
     hwloc-dev
 
 RUN adduser -S -D -H -h /xmrig miner
